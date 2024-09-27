@@ -1,6 +1,7 @@
 ﻿using BenchmarkDotNet.Attributes;
+using LruCacheSample.LRU;
 
-namespace LruCacheSample.LRU;
+namespace LruCacheSample;
 
 /*
 | Method             | Capacity | Mean            | Ratio | Gen0        | Gen1      | Allocated     | Alloc Ratio |
